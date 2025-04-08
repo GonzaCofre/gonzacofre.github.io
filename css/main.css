@@ -1,46 +1,173 @@
 /*body*/
+
 body{background-color: #2D4C7D;
 }
 /*header*/
-header img{
-    max-width: 600px;
-    height: auto;
-    display: block;
-    margin: auto;
-}
+/* imagen de fondo(hosteria)*/
+.inicioo{ 
+    background-image: url(../img/hosteriaok.png);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+   }
 
-body header h1 {text-align: right;}
+body header h1 {text-align: right;
+height: 1px;
+width: 1300px;}
 body header h1 a{text-decoration: none;
                 color: #FFFFFF;
 }
 
 /*barra de navegacion*/
 
-nav{background-color: #FFFFFF;}
-nav ul{list-style: none;}
-nav ul li a{text-decoration: none;
+
+nav{
+    height:20px;
+    width: 706px;
+    background-color: #FFFFFF;
+    }
+nav ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
             color: #223A5F;
 }
 /*main*/
-main div{
+.reserva{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    height: 70px;
     background-color: #223A5F;
-    color:#FFFFFF
+    width: 200px;
 }
+
+.nosdiv{
+    width: 450px;
+    height: 300px;
+    background-color: #223A5F;
+}
+main div p{
+    color: #FFFFFF;
+}
+main div h2 a{ 
+    color: #FFFFFF;
+    list-style: none;
+    text-decoration: none;}
+.nosotrostext{
+    display: flex;
+    justify-content: left;
+    width: 100px;
+    height: 50px;
+}
+.textnos{
+    display: flex;
+    height: 1px;
+    width: 400px;
+}
+.divopino{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    background-color: #223A5F;
+    height: 100px;
+    width: 400px;
+}
+
+/* main htmlregistrarse*/
 .classregister ul li{
+    align-items: center;
+    display: flex;
+    width: 450px;
+    height: 100px;
     text-decoration: none;
     list-style: none;
     color: #223A5F;
     background-color: #FFFFFF;
 }
+/*main iniciarsesion*/
+.sesion {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.imgsesion{
+    display: flex;
+    width: 60px;
+    height: 50px;
+}
+.botonsesion{
+    color: #FFFFFF;
+    text-decoration: none;
+    display: flex;
+    background-color: #223A5F;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+}
+.foosesion{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+.usuario{
+    display: flex;
+    justify-content: left;
+    width: 400px;
+    height: 100px;
+    background-color: #FFFFFF;
+    color: #223A5F;
+}
+.contra{
+    display: flex;
+    justify-content: left;
+    width: 400px;
+    height: 100px;
+    background-color: #FFFFFF;
+    color: #223A5F;
+}   
+
 /*main htmlconoce*/
-.nhistoria{display: flex;}
-.lagunasep{display: flex;}
+.divconoce{
+    display: flex;
+    justify-content: center;
+    background-position: center;
+}
+.textcono{
+    background-color: #223A5F;
+    color: #FFFFFF;
+    width: 600px;
+
+}
+.nhistoria{
+    width: 650px;
+    background-color: #223A5F;
+    display: flex;
+color: #FFFFFF;}
+.lagunasep{
+    width:650px;
+    background-color: #223A5F;
+    color: #FFFFFF;
+    display: flex;}
 main div img{
     max-width: 300px;
     height: auto;
     margin: left;
 }
 /*main htmlreservas*/
+.imghabit{    
+    background-image: url(../img/camasej.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100%;
+}
 .habitacionsimple{
     display: flex;
 }
@@ -48,18 +175,29 @@ main div img{
 /*footer*/
 
 footer{
+    justify-content: space-between;
     background-color: #223A5F;
+    width: 100%;
+    height: 250px;
 }
 footer p{
+    
     color: #FFFFFF;
 }
-.classedescriptionknow{color: #FFFFFF;}
 
-.footer{display: flex;}
+.imgfac{display: flex;}
+.imginst{display: flex;}
+.imgtel{display: flex;}
+.imgubi{display: flex;}
+
+footer p{
+    display: flex;
+    justify-content: right;
+}
 footer img {
     display: flex;
-    max-width: 50px;
-    height: auto;
+    max-width: 100px;
+    height: 40px;
     display: block;
     margin: left;
 
